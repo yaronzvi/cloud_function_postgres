@@ -24,7 +24,8 @@ query_string =  dict({"unix_sock": "/cloudsql/{}/.s.PGSQL.5432".format(connectio
 
 # If the type of your table_field value is a string, surround it with double quotes.
 
-def _insert(request):
+def insert(request):
+    print ('123')
     request_json = request.get_json()
     stmt = sqlalchemy.text('insert into {} ({}) values ("{}")'.format(table_name, table_field, table_field_value))
     

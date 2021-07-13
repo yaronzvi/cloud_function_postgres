@@ -1,5 +1,5 @@
 import func1
 
 def hello(request):
-    func1(),
-    return "Hello yaron!"
+    func1.insert,
+    return "Hello yaron1!"
