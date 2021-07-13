@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "t4.py",
+            "name": "func1.py",
             "type": "python",
             "request": "launch",
-            "program": "${t4.py}",
+            "program": "${func1.py}",
             "console": "integratedTerminal"
         }
     ]
